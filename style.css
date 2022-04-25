@@ -3,33 +3,29 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
-  background-color: #101b3b;
+  background-image: url("mindart.jpeg");
   margin-left: 50px;
   margin-right: 200px;
+}
+
 }
 head{
   padding: 0;
   margin: 0;
   size: 20px
 }
-.hero-img {
-  height:50%;
-  width: 50%;
-  object-fit: contain;
-  height: 350px;
-  align-items: center;
-  background-size: cover;
-}
+header ID
 
 header {
-  height: 25px;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  height: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  letter-spacing: 100px;
 }
 header h1 {
   margin-left: 600px;
   margin: right 100px;
-  color: #ffffff;
+  color: #fbfbfb;
 
 }
 
@@ -37,13 +33,12 @@ header h1 {
   display: contents;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  margin-top: 24px;
+  height: 600px;
+  margin-top: 500px;
   margin-bottom: 24px;
   font-size: xx-large;
   font-family: "Staatliches";
-  background-color: #c35b5b;
-
+  letter-spacing: 10px;
 }
 .mitte {
   display: flex;
@@ -56,7 +51,8 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c35b5b;
+  background-color: #cb5b5b;
+
 
 }
 
@@ -64,7 +60,7 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c35b5b;
+  background-color: #cb5b5b;
 
 }
 
@@ -76,7 +72,7 @@ header h1 {
   width: 90%;
   height: 90%;
   object-fit: cover;
-  background-color: #101b3b;
+  background-color: #c9ccd5;
 
 
 }
@@ -98,7 +94,8 @@ header nav ul h2 {
 header nav ul h2 li {
   position: sticky;
   top: 0;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
+
 }
 
 footer ul,
@@ -115,16 +112,17 @@ footer ul li a,
 nav ul li a {
   padding: 24px;
   font-size: normal;
-  border-bottom: 1px solid transparent;
+  border-bottom: 10px solid transparent white;
+
   transition: border-bottom 0.5s;
-  color: #f2f2f2;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.5s;
 }
 footer ul li a,
 nav ul li a:hover {
-  border-bottom: 1px solid rgb(0, 0, 0);
-  color: #fcfbfb;
+  border-bottom: 1px solid transparent rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 section {
@@ -133,23 +131,20 @@ section {
   margin-right: auto;
   padding-left: 60px;
   padding-right: 60px;
-  color: #efe7e7;
-  
-
+  color: #ffffff;
+  backdrop-filter: blur(60px);
 }
 
 section h1{
-  background-color: #f2f2f2;
-  color:#040404;
+  color:#ffffff;
   margin-right: 900px;
 }
 section h2{
-  background-color: #f2f2f2;
-  color:#040404;
-  margin-right: 540px;
+  color:#fffdfd;
+  margin-right: 800px;
+
 }
 section h3{
-  background-color: #f2f2f2;
-  color:#040404;
+  color:#ffffff;
   margin-right: 880px;
 }
