@@ -108,6 +108,8 @@ nav ul {
   padding-bottom: 24px;
 
 }
+ 
+
 
 footer ul li a,
 nav ul li a {
@@ -130,11 +132,12 @@ section {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 100px;
+  padding-right: 200px;
   color: #ffffff;
   backdrop-filter: blur(60px);
   background-color: rgb(3, 9, 52);
+  margin-top: 100px;
 }
 
 section h1{
